@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ToDoアプリ</title>
+</head>
+<body>
+    <!-- ToDoリストの表示領域 -->
+    <ul id="todo-list"></ul>
+
+    <!-- タスク追加用の入力フォーム -->
+    <div>
+        <input id="add-new-todo" type="text" placeholder="ToDoを追加">
+        <button id="add-todo">追加</button>
+    </div>
+
+    <!-- 検索用の入力フォーム -->
+    <input id="search-todo" type="text" placeholder="検索ワード">
+    <button id="search">検索</button>
+
+    <!-- 残りのタスク数表示 -->
+    <p id="todo-count"></p>
+
+    <!-- JavaScriptファイルの読み込み -->
+    <script src="todo-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: baseline;
+}
+
+/* その他のスタイルは適宜追加してください */
